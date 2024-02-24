@@ -1,0 +1,18 @@
+Spread Operator, Destructuring and String Interpolation are ES6 features or short hand features to work on arrays, objects and strings.
+
+JS Topics to master for LWC-
+Variables
+Data Types
+null vs undefined
+Arrow function
+Spread Operator
+Destructuring
+String Interpolation
+String Methods
+object Methods
+Array Methods
+Promises - in case to connect with the server - for example we will see in the case of Apex
+Modules import and export - util methods - import one file to another
+Events - click of button what should happen
+setTimeout vs setInterval
+QuerySelectors
