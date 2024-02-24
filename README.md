@@ -1,2 +1,2 @@
 # LWC
-this repo is a complete resource to master LWC
+This repo is a complete resource to master LWC
