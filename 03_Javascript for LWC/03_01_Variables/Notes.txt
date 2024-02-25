@@ -1,0 +1,11 @@
+Global Scope - No No Yes
+Function Scope - Yes Yes Yes
+Block Scope - Yes Yes No
+Can be reassigned - No Yes Yes
+
+No/Yes are for const let and var
+const let and var are reserved keywords to declare variables
+Js identifiers are case-sensitive meaning uppercase and lowercase letters are considered different.
+
+let - variable can be updated but not re-declared
+const - variable can neither be updated nor re-declared

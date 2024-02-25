@@ -1,0 +1,273 @@
+1)
+HTML defines structure of a web page
+HTML --> tells the browser how to display the content
+
+2)
+tags are used to create HTML element
+most commonly used HTML Elements or tags in LWC-
+<div> </div> - this tag defines a division in an HTML document
+<p> </p> - This tag used for paragraph that starts on anew line and add some margin before and after a paragraph
+padding and margin before the text and after the text
+block level - starts everytime with a new line
+<h1> - <h6> - gives heading of different sizes
+<a> </a> - This tag defines a hyperlink (embed link for a website)
+<img> - This tag help you insert an image in web page
+<ul> </ul> - This tag lists items using plain bullets - list of items on the webpage
+
+3)
+Famous HTML Tags-
+Document Structure:
+<html>: Defines the root element of an HTML document.
+<head>: Contains meta-information about the document, such as its title and links to external resources.
+<title>: Sets the title of the document, which appears in the browser's title bar or tab.
+<meta>: Provides metadata about the HTML document, such as character set, author, and description.
+<link>: Links external resources such as stylesheets.
+<body>: Contains the content of the HTML document that is visible to users.
+<header>, <footer>, <nav>: Semantic tags for defining header, footer, and navigation sections.
+<main>, <section>, <article>, <aside>: Semantic tags for defining main content, sections, articles, and sidebars.
+
+Text Formatting and Display:
+<p>: Defines a paragraph.
+<span>: Inline container used for styling or scripting purposes.
+<div>: Block-level container used for grouping and styling content.
+<strong>, <em>, <b>, <i>: Used for emphasizing or styling text.
+<u>, <s>, <sub>, <sup>: Used for underlining, strikethrough, subscript, and superscript text.
+<blockquote>, <pre>: Defines a blockquote or preformatted text.
+
+Links and Anchors:
+<a>: Defines a hyperlink.
+<href>: Specifies the URL of the linked resource.
+<target>: Specifies where to open the linked document.
+
+Lists:
+<ul>: Defines an unordered list.
+<ol>: Defines an ordered list.
+<li>: Defines a list item.
+
+Tables:
+<table>: Defines a table.
+<tr>: Defines a table row.
+<td>, <th>: Defines table cells and headers, respectively.
+<caption>: Defines a table caption.
+
+Forms and Input:
+<form>: Defines an HTML form for user input.
+<input>: Defines an input control.
+<button>, <select>, <option>, <textarea>, <label>, <fieldset>, <legend>, <optgroup>: Various form-related elements.
+
+Media:
+<img>: Defines an image.
+<video>, <audio>, <source>: Defines multimedia content.
+<iframe>: Defines an inline frame.
+<canvas>, <svg>: Used for drawing graphics.
+<map>, <area>: Defines client-side image maps.
+
+Semantic and Structural:
+Tags such as <article>, <section>, <aside>, <header>, <footer>, and <nav> provide semantic meaning to the content, aiding accessibility and SEO.
+
+Metadata:
+<meta>, <title>, <base>: Tags used for specifying metadata, document title, and base URL.
+
+For more tags kindly refer to the documentation!
+
+4)
+MetaData Tag in HTML-
+In HTML, the <meta> tag is used to provide metadata about the HTML document. Metadata is data about the HTML document itself, such as the character encoding, authorship, description, keywords, and viewport settings. Metadata tags are not displayed on the web page but are used by browsers and search engines for various purposes.
+
+Here are some common attributes used with the <meta> tag:
+charset: Specifies the character encoding for the document.
+name or property: Specifies the type of metadata being provided.
+content: Specifies the value of the metadata.
+
+For example:
+html code-
+<meta charset="UTF-8">
+<meta name="description" content="A description of the page">
+<meta name="keywords" content="HTML, metadata, tags">
+<meta name="author" content="John Doe">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+In this example:
+The charset attribute specifies that the character encoding of the document is UTF-8.
+The description meta tag provides a brief description of the page.
+The keywords meta tag specifies keywords related to the content of the page.
+The author meta tag specifies the author of the page.
+The viewport meta tag defines how the browser should display the page on different devices, such as setting the width to the device width and initial zoom level to 1.0.
+These metadata tags help search engines understand the content of the page better and improve accessibility, usability, and search engine optimization (SEO) of the website.
+
+5)
+why should we use <!DOCTYPE html>?
+<!DOCTYPE html> is an HTML5 document type declaration. It is used at the beginning of an HTML document to specify the version of HTML being used, which in this case is HTML5.
+The <!DOCTYPE html> declaration tells the web browser that the document is written in HTML5 markup language. It helps the browser to render the document in standards mode, ensuring proper rendering and compatibility with modern web standards.
+Including <!DOCTYPE html> at the beginning of an HTML document is considered best practice and is recommended for all HTML documents written in HTML5.
+
+6)
+HTML Tag
+html tag is the root element of the HTML page
+In HTML, the "root element" refers to the outermost element in an HTML document, which encapsulates all other elements within the document. This root element is typically the <html> element.
+The HTML document begins with the opening <html> tag and ends with the closing </html> tag. All other HTML elements, such as <head> and <body>, are nested inside the <html> element.
+
+Here's an example of a simple HTML document structure:
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML Document</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a paragraph in my HTML document.</p>
+</body>
+</html>
+In this example:
+<html> is the root element, encapsulating the entire document.
+<head> and <body> are child elements of <html>, containing metadata and content, respectively.
+Inside the <head> element, we have a <title> element that specifies the title of the document.
+Inside the <body> element, we have an <h1> heading and a <p> paragraph.
+The root element serves as the starting point for defining the structure and content of the HTML document. All other elements are descendants of the root element, forming a hierarchical structure that represents the document's content and organization.
+
+7)
+head tag
+<head> Tag:
+The <head> element is a container for metadata and other information about the HTML document. It typically contains elements such as <title>, <meta>, <link>, and <script>.
+Metadata elements like <title>, <meta>, and <link> provide information such as the title of the document, character encoding, stylesheets, and other external resources.
+The <head> section is not displayed on the web page itself but is used by the browser and search engines to understand and process the document.
+Example:
+html
+<head>
+    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Description of my website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+8)
+body tag
+<body> Tag:
+The <body> element contains the main content of the HTML document that is visible to users when they visit the web page.
+It can include various elements such as headings, paragraphs, images, links, lists, forms, and more.
+Everything inside the <body> tag is rendered in the browser window and is what users interact with when viewing the web page.
+Example:
+html
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>About Us</h2>
+            <p>This is the main content of the web page...</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+In summary, the <head> section contains metadata and information for browsers and search engines, while the <body> section contains the main content visible to users on the web page.
+
+9)
+what does metadata mean?
+Metadata refers to data that provides information about other data. It describes various aspects of a piece of information, such as its content, format, quality, source, and context. In the context of the web and HTML documents, metadata typically refers to additional information about the content of a web page, rather than the content itself.
+
+Some common types of metadata in the context of HTML documents include:
+
+Title: Describes the title or name of the document.
+Description: Provides a brief summary or description of the content of the document.
+Keywords: Specifies relevant keywords or phrases related to the content of the document.
+Author: Indicates the creator or author of the document.
+Character Encoding: Specifies the character encoding used in the document (e.g., UTF-8).
+Viewport: Defines how the web page should be displayed on different devices, such as mobile phones and tablets.
+Metadata is crucial for various purposes, including search engine optimization (SEO), where search engines use metadata to understand the content of web pages and rank them appropriately in search results. Additionally, metadata helps browsers, web crawlers, and other systems process and interpret web content accurately.
+
+In summary, metadata provides valuable context and information about the content of a document, enhancing its accessibility, discoverability, and usability.
+
+10)
+div tag
+The <div> tag is one of the most commonly used elements in HTML, and it stands for "division" or "division container." It doesn't inherently represent anything semantically meaningful on its own; instead, it's a generic container used to group together other HTML elements and content, allowing you to structure and style sections of your web page.
+
+Here's a deeper explanation of the <div> tag:
+Container: The <div> tag acts as a container for grouping together related elements. You can think of it as a box that can hold other HTML elements, such as text, images, forms, or other <div> elements.
+Layout and Structure: <div> elements are commonly used to divide a web page into sections or compartments, making it easier to organize and structure the content. For example, you might use <div> elements to create header, footer, sidebar, or main content sections.
+Styling: <div> elements are often used as targets for CSS styling. By applying CSS rules to <div> elements, you can control their appearance, such as their size, position, background color, border, and more. This allows you to create visually appealing and well-organized layouts for your web page.
+Scripting: <div> elements can also be targeted and manipulated using JavaScript or other scripting languages. This makes them useful for dynamic web applications where you need to update or interact with specific sections of the page dynamically.
+
+Here's a simple example of how you might use <div> elements to structure a basic web page layout:
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        /* CSS styles for layout */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Website</h1>
+    </div>
+    <div class="main-content">
+        <h2>About Us</h2>
+        <p>This is the main content of the web page...</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </div>
+</body>
+</html>
+In this example, <div> elements are used to create distinct sections for the header, main content, and footer of the web page. CSS styles are applied to these <div> elements to define their appearance and layout.
+
+11)
+footer
+In the above example, the <footer> is a semantic HTML element used to define the footer section of the web page. It typically contains information about the website, copyright notices, links to privacy policies, contact information, and other related content.
+
+In the example provided, the <footer> is represented by the <div> element with the class attribute set to "footer":
+html
+<div class="footer">
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</div>
+Here, the class attribute is used to apply CSS styles to the <div> element, giving it a specific appearance and layout.
+
+Using semantic HTML elements like <footer> instead of generic <div> elements provides clarity and structure to the HTML document, making it easier to understand for both humans and machines (such as search engines). It also helps with accessibility and SEO.
+
+In CSS, you could style the footer element like this:
+css
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+This CSS code sets the background color to dark gray (#333), text color to white, adds padding around the content, and aligns the text to the center within the footer section.
+
+In the context of the provided example, "footer" is not a specific HTML element; it is used as a class name for a <div> element. The <div> element with the class attribute set to "footer" is essentially a container for the footer section of the web page.
+html
+<div class="footer">
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</div>
+In this snippet, <div class="footer"> signifies a division or container representing the footer section of the webpage. It is often used to encapsulate footer-related content such as copyright notices, contact information, links to social media, etc.
+
+The use of the class attribute allows you to apply specific styling or functionality to this particular <div> element. For instance, you could define CSS rules targeting elements with the class "footer" to style the appearance of the footer section across your website.
+
+So, in summary, in this specific context, "footer" refers to a division or container element used to structure and style the footer section of the webpage.
+
