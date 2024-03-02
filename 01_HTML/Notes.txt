@@ -271,3 +271,25 @@ The use of the class attribute allows you to apply specific styling or functiona
 
 So, in summary, in this specific context, "footer" refers to a division or container element used to structure and style the footer section of the webpage.
 
+12)
+Attributes are always specified in the start tags
+Atrributes usually come in name/value pairs like: name="value"
+Example - <a href="https://google.com">Google</a>
+These are attributes given by default by HTML
+
+HTML data-* Attribute
+This attribute we will create using data-*
+used to store some custom private data which we want to use in JS and we want to access -> we can store it in HTML using data attributes 
+The data-* Attribute is used to store custom data private to the page or application
+Example - <div data-name="Rahul">Username</div>
+
+13)
+HTML Elements-
+Block level-
+starts on a new line and takes up the full width available
+Ex - <div>, <p>, <h1>-<h6>, <ul>, <header>, <article>
+
+InLine Level-
+Element does not start on a new line and it only takes up as much width as necessary
+Element start immediately after some particular text
+Ex - <span>, <img>, <a>, <label>, <strong>
